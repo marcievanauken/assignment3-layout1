@@ -30,7 +30,7 @@ p {
 }
 
 #socialButtons {
-	background-color:#fff799;
+	background-color:#00aeef;
 	height:33px;
 	width:65px;
 	margin:0 auto;
@@ -53,11 +53,26 @@ p {
 	padding:10px;
 }
 
+#nav a {
+	color:#000;
+	font-family: arial;
+	margin-right: 10px;
+}
+
+
 #main{
 	width:73%;
 	float:left;
 	padding:10px;
 	min-height: 100vh;
+	background-color: #fff;
+}
+
+#mainThree{
+	width:60%;
+	float:left;
+	min-height: 100vh;
+	padding:10px;
 	background-color: #fff;
 }
 
@@ -71,6 +86,42 @@ p {
 
 .sideBar a{
 	display:block;
+}
+
+.sideLeft {
+	background-color:#fff799;
+	float:left;
+	width:13%;
+	padding:10px;
+	min-height: 100vh;
+}
+
+.sideLeft a{
+	display:block;
+}
+
+.sideRight {
+	background-color:#fff799;
+	float:left;
+	width:20%;
+	min-height: 100vh;
+	padding:10px;
+}
+
+#imageGallery {
+	width:150px;
+	height:265px;
+	background-color: #e1e1e1;
+	margin-right:10px;
+	margin-left:12px;
+	margin-bottom:10px;
+	padding:10px;
+	float:left;
+}
+
+#imageGallery img {
+	width:150px;
+	height: auto;
 }
 
 #footer {
